@@ -3,37 +3,42 @@
     padding: 0;
     width: auto;
     height:auto;
-
-    background-attachment:scroll;
-    display: flex;
-    background-attachment: fixed;
-
+     display: flex;
 
 
 
 }
+.containerp{
+    width: 30%;
+}
 
 .containerforprofile{
     width: 30vw;
-    height: 98vh;
-    margin: 0;
+    height: 99.5vh;
+    margin: -10px;
     padding: 0;
     background-color: rgb(0, 0, 0);
-    background-attachment:fixed;
+    /* background-attachment:fixed;
     background-repeat: no-repeat;
+    background-attachment: inherit; */
+    position: fixed; 
+    left: 0px;
+    justify-content: center;
+    flex-direction: column;
     
 
 
 }
 .containerforinformation{
-    margin: 0;
+    margin: 20px;
     padding: 0;
     background-color:white;
-    background-position: right;
+    /* background-position: left; */
     width: 70vw;
-    text-align: left;
+    text-align: right;
     font-size: 36px;
-    background-attachment: scroll;
+    /* background-attachment: scroll; */
+   
 
 }
 .container1{
@@ -43,19 +48,80 @@
     height: auto;
     text-align: left;
 }
+.contactsuslinks{
+    width: auto;
+    height: auto;
+    display: flex;
+    text-align: center;
 
-
-.bg_image{
-    margin: 93px;
-    padding: 10px;
-    height: 40vh;
-    width: 14vw;
-    background-image: url(pic.jpg);
-    /* background-color: rgb(253, 238, 238); */
-    background-repeat: no-repeat;
     justify-content: center;
-    border-radius: 999%;
+    /* position: fixed; */
+    flex-direction: row;
+}
+.bg_image{
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+
+
+}
+
+
+.bg_image img {
+   width :500px;
+   height:500px;
+    border-radius: 50%;
     
+    
+
+}
+
+
+.imagebox{
+    width: auto;
+    height: auto;
+    position: relative;
+    background-color: #000;
+    
+
+}
+.imagebox1{
+    width: auto;
+    height: auto;
+    position: relative;
+    
+    }
+    .imagebox2{
+        width: auto;
+        height: auto;
+        position: relative;
+    
+    }
+.imagebox3{
+    width: auto;
+    height: auto;
+    position: relative;
+   
+}
+
+.boxx{
+    margin: 0;
+    padding: 16px;
+    position: relative;
+    /* top: 67px; */
+    text-align :center;
+    font-size: 40px;
+    font-style: normal;
+    text-transform: capitalize;
+    color: #fff;
+
+
+}
+.boxx1{
+    width: 20vw;
+    height: 20vh;
+    background-color: aqua ;
+    background-image: url(gmailo.com.png);
 
 }
 .box1{
@@ -85,8 +151,8 @@
 .box3{
     width: auto;
     height: auto;
-    margin: 0; 
-    padding: 0;
+    margin: 5px; 
+    padding: 5px;
     text-align: left;
     color: rgb(253, 253, 253);
     font-size: 30px;
@@ -95,12 +161,13 @@
 .box4{
     width: auto;
     height: auto;
-    margin: 0; 
-    padding: 0;
+    margin: 5px; 
+    padding: 5px;
     text-align: left;
     color: rgb(253, 253, 253);
     font-size: 25px;
     font-style:normal;
+
 }
 .box5{
     margin: 10px;
@@ -180,40 +247,43 @@
       inset -2px -2px 3px rgba(0, 0, 0, 0.6);
   }
   .b3{
-    margin: 10px;
+    margin-bottom: 3%;
     padding: 10px;
     box-shadow: 5px;
     border: 5px solid;
     box-shadow: 10px 10px 10px  gray;
-    color: beige;
-    background-color: rgb(87, 20, 20);
-  }
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+   
+
+   }
+   /*
   .b4{
-    margin: 10px;
+    margin-bottom: 3%;
     padding: 10px;
     box-shadow: 5px;
     border: 5px solid;
-    box-shadow: 10px 10px 10px  gray;
-    color: beige;
-    background-color: rgb(87, 20, 20);
+    box-shadow: 10px 10px 10px  rgb(150, 115, 115);
+    color: rgb(2, 2, 2);
+    background-color: rgb(253, 253, 253);
   }
   .b5{
-    margin: 10px;
+    margin-bottom: 3%;
     padding: 10px;
     box-shadow: 5px;
     border: 5px solid;
     box-shadow: 10px 10px 10px  gray;
-    color: beige;
-    background-color: rgb(87, 20, 20);
+    color: rgb(5, 5, 5);
+    background-color: rgb(255, 255, 255);
   }
   .b6{
-    margin: 10px;
+    margin-bottom: 3%;
     padding: 10px;
     box-shadow: 5px;
     border: 5px solid;
-    box-shadow: 10px 10px 10px  gray;
-    color: beige;
-    background-color: rgb(87, 20, 20);
+    box-shadow: 10px 10px 10px   gray;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
   }
-  
+   */
   
